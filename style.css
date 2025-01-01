@@ -74,7 +74,6 @@ footer {
 /* About Section */
 .about-section {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
     margin-bottom: 40px;
@@ -85,11 +84,12 @@ footer {
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
+    flex-shrink: 0; /* Ensures the image maintains its size */
 }
 
 .about-section .about-text {
-    flex: 1;
+    flex: 1; /* Takes up the remaining space */
+    text-align: left; /* Ensures the text aligns properly */
 }
 
 .about-section h2 {
@@ -101,4 +101,3 @@ footer {
     margin-bottom: 15px;
     text-align: justify;
 }
-
