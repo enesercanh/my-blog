@@ -71,3 +71,34 @@ footer {
     font-size: 0.9rem;
     color: #666666;
 }
+/* About Section */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.about-section img.profile-picture {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.about-section .about-text {
+    flex: 1;
+}
+
+.about-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
