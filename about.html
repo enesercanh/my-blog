@@ -13,12 +13,38 @@
             background-color: #f4f4f9;
             color: #333;
         }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
         .about-section {
             display: flex;
             flex-wrap: wrap;
             padding: 20px;
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 20px auto;
             background-color: #fff;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
@@ -57,6 +83,19 @@
     </style>
 </head>
 <body>
+    <header>
+        <h1>Enes's World</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="researches.html">Researches</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <section class="about-section">
         <img src="images/enes.jpg" alt="Picture of Enes" class="profile-picture">
         <div class="about-text">
